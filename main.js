@@ -3,19 +3,15 @@ var inputNumber = document.getElementById("gensToRunNum");
 var canvas = document.getElementById("canvas");
 var ctx = canvas.getContext("2d");
 var creatures = {
-	land1: {}
+	creature1: {}
 }
 var grid = []
 var numL;
 var numW;
 
-class creature {
-	constructor() {
-  	this.color = null;
-    this.type = null;
-    this.gene = null;
-  }
-}
+
+
+
 
 function oneTimeSetup(width, height) {
 	numH = canvas.height / height;
